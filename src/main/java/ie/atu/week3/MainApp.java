@@ -39,6 +39,11 @@ public class MainApp {
                 }
                 result = calc.div(a, b);
                 break;
+            case 5:
+                result = calc.power(a, b);
+                break;
+            case 6:
+                result = calc.modulo(a, b);
             default:
                 System.out.println("Invalid input");
         }
